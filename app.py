@@ -17,6 +17,7 @@ class Note(db.Model):
         return '<Note %r>' % self.id
 
 
+
 @app.route('/')
 @app.route('/notes', methods=['POST', 'GET'])
 def notes():
